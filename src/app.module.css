@@ -7,7 +7,7 @@
 }
 
 .heroTitle {
-  @apply font-bold text-4xl;
+  @apply font-bold text-4xl text-center;
 }
 
 .heroInfo {
