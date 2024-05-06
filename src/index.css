@@ -7,5 +7,5 @@
   font-family: 'Teachers', sans-serif;
   scroll-behavior: smooth;
   color-scheme: light dark;
-  @apply overflow-y-scroll cursor-default;
+  @apply overflow-y-scroll cursor-default select-none;
 }
