@@ -7,17 +7,22 @@ import getGallery from './lib/raindrop';
 
 function App() {
   const [images, setImages] = useState<ImageType[]>([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     getGallery().then((items) => {
       setImages(items);
+      setLoading(false);
     });
   }, []);
 
   return (
     <Box>
       <Hero />
-      <ImageSection images={images} />
+      <ImageSection
+        images={images}
+        loading={loading}
+      />
     </Box>
   );
 }
