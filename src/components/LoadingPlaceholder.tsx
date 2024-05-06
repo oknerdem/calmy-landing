@@ -1,12 +1,7 @@
 import styles from '../app.module.css';
 
 function LoadingPlaceholder() {
-  return (
-    <>
-      <div className={styles.placeholder} />
-      <div className={styles.placeholder} />
-    </>
-  );
+  return <div className={styles.placeholder} />;
 }
 
 export default LoadingPlaceholder;
