@@ -10,6 +10,7 @@ function ImageSection({ images }: { images: ImageType[] }) {
           src={image.cover}
           alt={image.title}
           title={image.title}
+          loading='lazy'
           className={styles.image}
         />
       ))}
