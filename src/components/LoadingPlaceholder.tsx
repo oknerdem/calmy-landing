@@ -1,7 +1,16 @@
 import styles from '../app.module.css';
 
 function LoadingPlaceholder() {
-  return <div className={styles.placeholder} />;
+  return (
+    <>
+      {Array.from({ length: 3 }).map((_, i) => (
+        <div
+          key={i}
+          className={styles.placeholder}
+        />
+      ))}
+    </>
+  );
 }
 
 export default LoadingPlaceholder;
