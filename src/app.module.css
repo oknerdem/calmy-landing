@@ -6,6 +6,10 @@
   @apply max-w-xs mx-auto flex flex-col items-center justify-center gap-2.5 min-h-full rounded-xl;
 }
 
+.heroHelper {
+  @apply text-center text-sm dark:text-emerald-300 text-emerald-400;
+}
+
 .heroTitle {
   @apply font-bold text-4xl text-center;
 }
@@ -23,7 +27,7 @@
 }
 
 .defaultButton {
-  @apply bg-neutral-950 text-neutral-100 hover:bg-neutral-700 active:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200 dark:active:bg-neutral-300 rounded-full px-4 py-1 mt-1.5 duration-150;
+  @apply bg-neutral-950 text-neutral-100 hover:bg-neutral-700 active:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-300 dark:active:bg-neutral-200 rounded-full px-4 py-1 mt-1.5 duration-150;
 }
 
 .placeholder {

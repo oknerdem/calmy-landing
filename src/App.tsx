@@ -18,7 +18,11 @@ function App() {
 
   return (
     <Box>
-      <Hero />
+      <Hero
+        title='Sites that inspire.'
+        info='Go from design to world-class site with Framer, the web builder for creatives.'
+        helper='Unlimited Access'
+      />
       <ImageSection
         images={images}
         loading={loading}
