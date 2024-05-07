@@ -1,6 +1,7 @@
 import { ImageType } from '../types/type';
-import styles from '../app.module.css';
 import LoadingPlaceholder from './LoadingPlaceholder';
+import FallbackImage from './FallbackImage';
+import styles from '../app.module.css';
 
 function ImageSection({
   images,
@@ -16,13 +17,9 @@ function ImageSection({
       ) : (
         <>
           {images.map((image, i) => (
-            <img
+            <FallbackImage
               key={i}
-              src={image.cover}
-              alt={image.title}
-              title={image.title}
-              loading='lazy'
-              className={styles.image}
+              image={image}
             />
           ))}
         </>
