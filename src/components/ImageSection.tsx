@@ -1,7 +1,7 @@
-import { ImageType } from '../types/type';
-import LoadingPlaceholder from './LoadingPlaceholder';
-import FallbackImage from './FallbackImage';
-import styles from '../app.module.css';
+import { ImageType } from '@/types/type';
+import LoadingPlaceholder from '@/components/LoadingPlaceholder';
+import FallbackImage from '@/components/FallbackImage';
+import styles from '@/app.module.css';
 
 function ImageSection({
   images,

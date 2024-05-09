@@ -1,6 +1,6 @@
-import { DefaultButton } from './Buttons';
-import { HeroType } from '../types/type';
-import styles from '../app.module.css';
+import { DefaultButton } from '@/components/Buttons';
+import { HeroType } from '@/types/type';
+import styles from '@/app.module.css';
 
 function Hero({ title, info, helper }: HeroType) {
   return (

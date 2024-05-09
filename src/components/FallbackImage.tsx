@@ -1,5 +1,5 @@
-import { ImageType } from '../types/type';
-import styles from '../app.module.css';
+import { ImageType } from '@/types/type';
+import styles from '@/app.module.css';
 
 function FallbackImage({ image }: { image: ImageType }) {
   return (
