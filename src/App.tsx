@@ -3,6 +3,7 @@ import { ImageType } from '@/types/type';
 import Box from '@/components/Box';
 import Hero from '@/components/Hero';
 import ImageSection from '@/components/ImageSection';
+import BottomShadow from '@/components/BottomShadow';
 import getGallery from '@/lib/raindrop';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         images={images}
         loading={loading}
       />
+      <BottomShadow />
     </Box>
   );
 }
